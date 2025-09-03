@@ -15,49 +15,78 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="header">
             <nav class="container">
-                <div class="wrapper1">
+                <div class="wrapper1 reveal">
                     <img class="header-logo" src="../ImgSide/icon-app-itunes-1024x1024-1.png" alt="picture">
                     <h1 class="header-title">Eeasy Bonus</h1>
                 </div>
                 <div class="wrapper2">
-                    <a class="wrapper2-a" href="#home">Главная</a>
-                    <a class="wrapper2-a" href="#about">О Нас</a>
-                    <a class="wrapper2-a" href="">Демо</a>
-                    <a class="wrapper2-a" href="">Контакты</a>
+                    <a href="#home" class="wrapper2-a">Главная</a>
+                    <a href="#about" class="wrapper2-a">О Нас</a>
+                    <a href="#demo" class="wrapper2-a">Демо</a>
+                    <a href="#contact" class="wrapper2-a">Контакты</a>
                 </div>
                 <button class="wrapeer2-btn" type="button">Получить демо</button>
-                <button class="wrapeer2-btn2" aria-label="otkrit menu" aria-expanded="false">
-                    <img class="wrapeer2-btn2-img" src="../ImgSide/Menu Hamburger.png" alt="">
-                </button>
             </nav>
-            <div id="mobileMenu" class="mobile-menu" aria-hidden="true"></div>
+            <input id="nav-toggle" class="nav-input" type="checkbox">
+            <label for="nav-toggle" class="burger">
+                <div class="plate plate4" onclick="this.classList.toggle('active')">
+                    <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+
+                        <path class="line line1" d="M 50,35 H 30" />
+                        <path class="line line2" d="M 50,35 H 70" />
+                        <path class="line line3" d="M 50,50 H 30" />
+                        <path class="line line4" d="M 50,50 H 70" />
+                        <path class="line line5" d="M 50,65 H 30" />
+                        <path class="line line6" d="M 50,65 H 70" />
+                    </svg>
+                    <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                        <path class="line" d="M 34,32 L 66,68" />
+                        <path class="line" d="M 66,32 L 34,68" />
+                    </svg>
+                </div>
+            </label>
+            <nav id="site-nav" class="nav" aria-hidden="true">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#features">Функционал</a></li>
+                    <li><a href="#benifist">Преимущества проет</a></li>
+                    <li><a href="#customer">Отзывы клиентов</a></li>
+                    <li><a href="#demo">Демо</a></li>
+                </ul>
+            </nav>
             <div class="inner">
-                <div class="hdr-item">
-                    <div class="hdr-into-item">
-                        <h1 class="hdr-into-item-title">Сканируй.Рекомендуй.Зарабатывай</h1>
-                        <p class="hdr-into-item-p">Мы создали приложение, которое помогает специалистам, таким как
-                            сантехники и электрики, зарабатывать больше, а магазинам — увеличивать продажи!</p>
-                        <button class="hdr-into-item-btn" type="button">Попробовать сейчас</button>
+                <div class="inner-container reveal">
+                    <div class="hdr-item">
+                        <div class="hdr-into-item">
+                            <h1 class="hdr-into-item-title reveal">Сканируй.Рекомендуй.Зарабатывай</h1>
+                            <p class="hdr-into-item-p">Мы создали приложение, которое помогает специалистам, таким как
+                                сантехники и электрики, зарабатывать больше, а магазинам — увеличивать продажи!</p>
+                            <button class="hdr-into-item-btn" type="button">Попробовать сейчас</button>
+                        </div>
+                        <div class="header-img">
+                            <img class="hdr-img1" src="../ImgSide//mobile-dynamic-clay.png" alt="picture">
+                            <img class="hdr-img2" src="../ImgSide/dollar-dollar-clay.png" alt="picture">
+                            <img class="hdr-img3" src="../ImgSide//thumb-up-dynamic-clay.png" alt="picture">
+                            <img class="hdr-img4" src="../ImgSide/star-dynamic-clay.png" alt="picture">
+                            <img class="hdr-img5" src="../ImgSide/gift-dynamic-clay.png" alt="picture">
+                            <img class="hdr-img6" src="../ImgSide/money-dynamic-clay.png" alt="picture">
+                        </div>
                     </div>
-                    <img class="hdr-img1" src="../ImgSide//mobile-dynamic-clay.png" alt="picture">
-                    <img class="hdr-img2" src="../ImgSide/dollar-dollar-clay.png" alt="picture">
-                    <img class="hdr-img3" src="../ImgSide//thumb-up-dynamic-clay.png" alt="picture">
-                    <img class="hdr-img4" src="../ImgSide/star-dynamic-clay.png" alt="picture">
-                    <img class="hdr-img5" src="../ImgSide/gift-dynamic-clay.png" alt="picture">
-                    <img class="hdr-img6" src="../ImgSide/money-dynamic-clay.png" alt="picture">
                 </div>
             </div>
         </div>
     </header>
-    <main id='#home' class="main">
+    <main id='home' class="main">
         <div class="main-top-line"></div>
-        <div class="main-container">
-            <h1 class="main-title">Привет, мы <span> Easy Bonus!</span></h1>
+        <div class="main-container reveal">
+            <h1 class="main-title reveal">Привет, мы <span> Easy Bonus!</span></h1>
             <div class="main-inner">
-                <div class="inform1">
+                <div class="inform1 reveal">
                     <div class="inform1-title-show">
                         <h2 class="inform1-title">Кто мы?</h2>
                         <div class="inform-ellipse"></div>
@@ -66,12 +95,13 @@
                         цифровые
                         решения для реального бизнеса.</p>
                 </div>
-                <div class="inform2">
+                <div class="inform2 reveal">
                     <div class="inform2-title-show">
                         <h2 class="inform2-title">Какова наша цель?</h2>
                         <div class="inform2-ellipse2"></div>
                     </div>
-                    <p class="inform2-p"><span>Наша цель</span> — помочь специалистам (сантехникам, электрикам и другим
+                    <p class="inform2-p"><span>Наша цель</span> — помочь специалистам (сантехникам, электрикам и
+                        другим
                         мастерам)
                         зарабатывать больше, а магазинам — продавать активнее с помощью приложения<span> EASY
                             BONUS.</span></p>
@@ -79,7 +109,8 @@
             </div>
             <div class="inform3">
                 <div class="inform3-show">
-                    <p class="inform3-p1">Мы понимаем, как важно упростить повседневные задачи, поэтому создали удобный
+                    <p class="inform3-p1 reveal">Мы понимаем, как важно упростить повседневные задачи, поэтому создали
+                        удобный
                         инструмент, который:</p>
                     <div class="inform3-ellipse"></div>
                 </div>
@@ -91,14 +122,14 @@
         </div>
     </main>
     <div class="main-center">
-        <h1 class="section-title">Что умеет <span>наше приложение?</span></h1>
-        <div class="main-container">
-            <div class="accordion">
+        <h1 class="section-title reveal">Что умеет <span>наше приложение?</span></h1>
+        <div class="main-center-container reveal">
+            <div class="accordion reveal">
                 <details class="item">
                     <summary>
                         <div class="summary-row">
-                            <div class="item-title">Сканирование штрих-кодов товаров</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="item-title reveal">Сканирование штрих-кодов товаров</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -110,7 +141,7 @@
                     <summary>
                         <div class="summary-row">
                             <div class="item-title">Начисление бонусов и вознаграждений</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -121,12 +152,12 @@
 
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
+                        <div class="summary-row reveal">
                             <div class="item-title">Механизм рекомендаций через специалистов</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
-                    <div class="item-body">
+                    <div class="item-body reveal">
                         Приложение рассчитано на взаимодействие с мастерами (сантехники, электрики и т.д.), которые
                         рекомендуют товары клиентам, тем самым продвигая продукцию магазинов.
                     </div>
@@ -135,7 +166,7 @@
                     <summary>
                         <div class="summary-row">
                             <div class="item-title">Генерация уникальных штрих-кодов для товаров</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -147,7 +178,7 @@
                     <summary>
                         <div class="summary-row">
                             <div class="item-title">Подготовка штрих-кодов к печати</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -159,7 +190,7 @@
                     <summary>
                         <div class="summary-row">
                             <div class="item-title">Поддержка программы лояльности для магазинов</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -171,7 +202,7 @@
                     <summary>
                         <div class="summary-row">
                             <div class="item-title">Стимулирование роста продаж</div>
-                            <div class="chev" aria-hidden>▴</div>
+                            <div class="chev" aria-hidden></div>
                         </div>
                     </summary>
                     <div class="item-body">
@@ -182,9 +213,9 @@
             </div>
         </div>
     </div>
-    <div class="main-bottom">
-        <h1 class="main-bottom-title">Как это помогает <span> бизнесу?</span></h1>
-        <div class="main-bottom-container">
+    <div id="" class="main-bottom">
+        <h1 class="main-bottom-title reveal">Как это помогает <span> бизнесу?</span></h1>
+        <div class="main-bottom-container reveal">
             <div class="main-bottom-inner">
                 <img class="main-bottom-img" src="../ImgSide/bag-dynamic-clay.png" alt="picture">
                 <p class="main-bottom-p">Увеличение продаж через рекомендации</p>
@@ -203,9 +234,9 @@
             </div>
         </div>
     </div>
-    <section class="section-row">
-        <h1 class="section-title">Хотите опробовать <span> демо?</span></h1>
-        <div class="section-container">
+    <section id="demo" class="section-row">
+        <h1 class="section-title reveal">Хотите опробовать <span> демо?</span></h1>
+        <div class="section-container reveal">
             <div class="section-inner">
                 <h1 class="section-title2">Попробуйте <span>EASY BONUS</span> в действии — без обязательств и оплаты.
                 </h1>
@@ -250,9 +281,9 @@
             </div>
         </div>
     </section>
-    <section id='#about' class="main-slider">
-        <h1 class="main-slider-title">Что говорят <span> о нас?</span></h1>
-        <div class="swiper mySwiper">
+    <section  class="main-slider">
+        <h1 class="main-slider-title reveal">Что говорят <span> о нас?</span></h1>
+        <div class="swiper mySwiper reveal">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <p class="main-slider-p">Теперь я не просто советую клиентам хорошие товары, но и получаю за это
@@ -313,41 +344,44 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper_row">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-            </div>
         </div>
-    </div>
-    <div class="contact-row">
-        <h1 class="contact-row-title">Контакты</h1>
-        <div class="contact-inform">
-            <h2 class="contact-inform-title">Есть вопросы или хотите обсудить внедрение?</h2>
-            <p class="contact-inform-p">Свяжитесь с нами любым удобным способом:</p>
-            <div class="contact-important">
-                <div class="contact-inform-call">
-                    <img class="contact-inform-img" src="../ImgSide/Message 36.png" alt="picture">
-                    <p class="contact-inform-p2">Email: company@mail.com </p>
-                </div>
-                <div class="contact-inform-call2">
-                    <img class="contact-inform-img" src="../ImgSide/Calling 1.png" alt="picture">
-                    <p class="contact-inform-p2">Телефон: +998 00 000 00 00 </p>
-                </div>
-                <div class="contact-inform-call">
-                    <img class="contact-inform-img" src="../ImgSide/Discovery 2.png" alt="picture">
-                    <p class="contact-inform-p2">Наш сайт: www.site.com </p>
-                </div>
-            </div>
-            <div class="contact-cyrcle">
-                <img class="cyrcle" src="../ImgSide/Right 2.png" alt="picture">
-                <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
-                <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
-            </div>
+        <div class="swiper_row">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </section>
-    <footer>
-        <div class="footer-container">
+    <section id="contact">
+        <div class="contact-row">
+            <div class="contact-container reveal">
+                <h1 class="contact-row-title reveal">Контакты</h1>
+                <div class="contact-inform">
+                    <h2 class="contact-inform-title">Есть вопросы или хотите обсудить внедрение?</h2>
+                    <p class="contact-inform-p">Свяжитесь с нами любым удобным способом:</p>
+                    <div class="contact-important">
+                        <div class="contact-inform-call">
+                            <img class="contact-inform-img" src="../ImgSide/Message 36.png" alt="picture">
+                            <p class="contact-inform-p2">Email: company@mail.com </p>
+                        </div>
+                        <div class="contact-inform-call2">
+                            <img class="contact-inform-img" src="../ImgSide/Calling 1.png" alt="picture">
+                            <p class="contact-inform-p2">Телефон: +998 00 000 00 00 </p>
+                        </div>
+                        <div class="contact-inform-call">
+                            <img class="contact-inform-img" src="../ImgSide/Discovery 2.png" alt="picture">
+                            <p class="contact-inform-p2">Наш сайт: www.site.com </p>
+                        </div>
+                    </div>
+                    <div class="contact-cyrcle">
+                        <img class="cyrcle" src="../ImgSide/Right 2.png" alt="picture">
+                        <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
+                        <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer id="about" class="footer reveal">
+        <div  class="footer-container">
             <div class="footer-inform">
                 <div class="footer-img-size">
                     <img class="footer-img" src="../ImgSide/icons8-linkedin-circled.png" alt="picture">
@@ -394,6 +428,18 @@
             }
 
         });
+
+        const elements = document.querySelectorAll('.reveal');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        });
+
+        elements.forEach(el => observer.observe(el));
     </script>
 </body>
 
