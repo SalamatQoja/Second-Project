@@ -550,11 +550,8 @@
     }
 
     details.item {
-        /* box-shadow: var(--shadow); */
         background: var(--card);
-        /* фон всей карточки */
         border-radius: 40px;
-        /* общий радиус */
         padding: 0;
         overflow: visible;
         transition: transform .98s ease;
@@ -570,7 +567,6 @@
         display: none;
     }
 
-    /* Убираем стандартную стрелку summary */
     .summary-row {
         width: 376px;
         height: 74px;
@@ -590,7 +586,6 @@
         font-size: 18px;
         color: #7FFC59;
         line-height: 1.05;
-        letter-spacing: 0%;
         margin-left: 25px;
         margin-top: 15px;
     }
