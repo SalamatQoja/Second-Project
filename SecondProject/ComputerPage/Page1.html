@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/DestkopPage.css">
+    <link rel="stylesheet" href="../css/MobilePage.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -16,25 +16,24 @@
 
 <body>
     <header id="home">
-        <div class="header">
+        <object class="header">
             <nav class="container">
-                <div class="wrapper1 reveal">
+                <header class="wrapper1 reveal">
                     <img class="header-logo" src="../ImgSide/icon-app-itunes-1024x1024-1.png" alt="picture">
                     <h1 class="header-title">Eeasy Bonus</h1>
-                </div>
-                <div class="wrapper2">
+                </header>
+                <main class="wrapper2">
                     <a href="#home" class="wrapper2-a">Главная</a>
                     <a href="#about" class="wrapper2-a">О Нас</a>
                     <a href="#demo" class="wrapper2-a">Демо</a>
                     <a href="#contact" class="wrapper2-a">Контакты</a>
-                </div>
+                </main>
                 <button class="wrapeer2-btn" type="button">Получить демо</button>
             </nav>
             <input id="nav-toggle" class="nav-input" type="checkbox">
             <label for="nav-toggle" class="burger">
-                <div class="plate plate4" onclick="this.classList.toggle('active')">
+                <section class="plate plate4" onclick="this.classList.toggle('active')">
                     <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-
                         <path class="line line1" d="M 50,35 H 30" />
                         <path class="line line2" d="M 50,35 H 70" />
                         <path class="line line3" d="M 50,50 H 30" />
@@ -42,11 +41,10 @@
                         <path class="line line5" d="M 50,65 H 30" />
                         <path class="line line6" d="M 50,65 H 70" />
                     </svg>
-                    <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-                        <path class="line" d="M 34,32 L 66,68" />
-                        <path class="line" d="M 66,32 L 34,68" />
+                    <path class="line" d="M 34,32 L 66,68" />
+                    <path class="line" d="M 66,32 L 34,68" />
                     </svg>
-                </div>
+                </section>
             </label>
             <nav id="site-nav" class="nav" aria-hidden="true">
                 <ul>
@@ -59,55 +57,55 @@
                     <li><a href="#demo">Демо</a></li>
                 </ul>
             </nav>
-            <div class="inner">
-                <div class="inner-container reveal">
+            <section class="inner">
+                <object class="inner-container reveal">
                     <div class="hdr-item">
-                        <div class="hdr-into-item">
+                        <aside class="hdr-into-item">
                             <h1 class="hdr-into-item-title reveal">Сканируй.Рекомендуй.Зарабатывай</h1>
                             <p class="hdr-into-item-p">Мы создали приложение, которое помогает специалистам, таким как
                                 сантехники и электрики, зарабатывать больше, а магазинам — увеличивать продажи!</p>
                             <button class="hdr-into-item-btn" type="button">Попробовать сейчас</button>
-                        </div>
-                        <div class="header-img">
+                        </aside>
+                        <article class="header-img">
                             <img class="hdr-img1" src="../ImgSide//mobile-dynamic-clay.png" alt="picture">
                             <img class="hdr-img2" src="../ImgSide/dollar-dollar-clay.png" alt="picture">
                             <img class="hdr-img3" src="../ImgSide//thumb-up-dynamic-clay.png" alt="picture">
                             <img class="hdr-img4" src="../ImgSide/star-dynamic-clay.png" alt="picture">
                             <img class="hdr-img5" src="../ImgSide/gift-dynamic-clay.png" alt="picture">
                             <img class="hdr-img6" src="../ImgSide/money-dynamic-clay.png" alt="picture">
-                        </div>
+                        </article>
                     </div>
-                </div>
-            </div>
-        </div>
+                </object>
+            </section>
+        </object>
     </header>
     <main id='home' class="main">
         <div class="main-top-line"></div>
-        <div class="main-container reveal">
+        <object class="main-container">
             <h1 class="main-title reveal">Привет, мы <span> Easy Bonus!</span></h1>
             <div class="main-inner">
-                <div class="inform1 reveal">
-                    <div class="inform1-title-show">
+                <aside class="inform1 reveal">
+                    <article class="inform1-title-show">
                         <h2 class="inform1-title">Кто мы?</h2>
                         <div class="inform-ellipse"></div>
-                    </div>
-                    <p class="inform1-p"><span>Мы</span> — команда IT-специалистов, создающая простые и эффективные
+                    </article>
+                    <h2 class="inform1-p"><span>Мы</span> — команда IT-специалистов, создающая простые и эффективные
                         цифровые
-                        решения для реального бизнеса.</p>
-                </div>
-                <div class="inform2 reveal">
-                    <div class="inform2-title-show">
+                        решения для реального бизнеса.</h2>
+                </aside>
+                <section class="inform2 reveal">
+                    <article class="inform2-title-show">
                         <h2 class="inform2-title">Какова наша цель?</h2>
                         <div class="inform2-ellipse2"></div>
-                    </div>
+                    </article>
                     <p class="inform2-p"><span>Наша цель</span> — помочь специалистам (сантехникам, электрикам и
                         другим
                         мастерам)
                         зарабатывать больше, а магазинам — продавать активнее с помощью приложения<span> EASY
                             BONUS.</span></p>
-                </div>
+                </section>
             </div>
-            <div class="inform3">
+            <footer class="inform3">
                 <div class="inform3-show">
                     <p class="inform3-p1 reveal">Мы понимаем, как важно упростить повседневные задачи, поэтому создали
                         удобный
@@ -117,20 +115,20 @@
                 <p class="inform3-p2">- Автоматизирует учёт рекомендаций товаров;</p>
                 <p class="inform3-p2">- Позволяет быстро сканировать и отслеживать бонусы;</p>
                 <p class="inform3-p2">- Делает процесс прозрачным и выгодным для всех участников.</p>
-            </div>
+            </footer>
             <div class="main-bottom-line"></div>
-        </div>
+        </object>
     </main>
-    <div class="main-center">
+    <main class="main-center">
         <h1 class="section-title reveal">Что умеет <span>наше приложение?</span></h1>
-        <div class="main-center-container reveal">
+        <section class="main-center-container reveal">
             <div class="accordion reveal">
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title reveal">Сканирование штрих-кодов товаров</div>
+                        <article class="summary-row">
+                            <h2 class="item-title reveal">Сканирование штрих-кодов товаров</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         Пользователи (специалисты) могут сканировать штрих-коды товаров через приложение для
@@ -139,23 +137,22 @@
                 </details>
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title">Начисление бонусов и вознаграждений</div>
+                        <article class="summary-row">
+                            <h2 class="item-title">Начисление бонусов и вознаграждений</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         После сканирования специалист получает денежное вознаграждение или баллы от магазина — за
                         факт рекомендации и использования товара.
                     </div>
                 </details>
-
                 <details class="item">
                     <summary>
-                        <div class="summary-row reveal">
-                            <div class="item-title">Механизм рекомендаций через специалистов</div>
+                        <article class="summary-row reveal">
+                            <h2 class="item-title">Механизм рекомендаций через специалистов</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body reveal">
                         Приложение рассчитано на взаимодействие с мастерами (сантехники, электрики и т.д.), которые
@@ -164,10 +161,10 @@
                 </details>
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title">Генерация уникальных штрих-кодов для товаров</div>
+                        <article class="summary-row">
+                            <h2 class="item-title">Генерация уникальных штрих-кодов для товаров</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         Система позволяет магазинам создавать неограниченное количество уникальных штрих-кодов, в
@@ -176,10 +173,10 @@
                 </details>
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title">Подготовка штрих-кодов к печати</div>
+                        <article class="summary-row">
+                            <h2 class="item-title">Подготовка штрих-кодов к печати</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         Приложение или связанный с ним сервис может подготовить штрих-коды для печати на
@@ -188,10 +185,10 @@
                 </details>
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title">Поддержка программы лояльности для магазинов</div>
+                        <article class="summary-row">
+                            <h2 class="item-title">Поддержка программы лояльности для магазинов</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         Интеграция этой системы помогает магазинам автоматизировать программу лояльности, управлять
@@ -200,10 +197,10 @@
                 </details>
                 <details class="item">
                     <summary>
-                        <div class="summary-row">
-                            <div class="item-title">Стимулирование роста продаж</div>
+                        <article class="summary-row">
+                            <h2 class="item-title">Стимулирование роста продаж</h2>
                             <div class="chev" aria-hidden></div>
-                        </div>
+                        </article>
                     </summary>
                     <div class="item-body">
                         Через привлечение активных специалистов и мотивацию рекомендаций, приложение увеличивает
@@ -211,104 +208,104 @@
                     </div>
                 </details>
             </div>
-        </div>
-    </div>
-    <div id="" class="main-bottom">
+        </section>
+    </main>
+    <section id="" class="main-bottom">
         <h1 class="main-bottom-title reveal">Как это помогает <span> бизнесу?</span></h1>
-        <div class="main-bottom-container reveal">
-            <div class="main-bottom-inner">
+        <object class="main-bottom-container reveal">
+            <header class="main-bottom-inner">
                 <img class="main-bottom-img" src="../ImgSide/bag-dynamic-clay.png" alt="picture">
                 <p class="main-bottom-p">Увеличение продаж через рекомендации</p>
-            </div>
-            <div class="main-bottom-inner">
+            </header>
+            <main class="main-bottom-inner">
                 <img class="main-bottom-img" src="../ImgSide//toggle-dynamic-clay.png" alt="picture">
                 <p class="main-bottom-p">Программа лояльности без сложных систем</p>
-            </div>
-            <div class="main-bottom-inner">
+            </main>
+            <article class="main-bottom-inner">
                 <img class="main-bottom-img" src="../ImgSide//rocket-dynamic-clay.png" alt="picture">
                 <p class="main-bottom-p">Быстрая и удобная маркировка товаров</p>
-            </div>
-            <div class="main-bottom-inner">
+            </article>
+            <footer class="main-bottom-inner">
                 <img class="main-bottom-img" src="../ImgSide//boy-dynamic-clay.png" alt="picture">
                 <p class="main-bottom-p">Привлечение и удержание мастеров></p>
-            </div>
-        </div>
-    </div>
+            </footer>
+        </object>
+    </section>
     <section id="demo" class="section-row">
         <h1 class="section-title reveal">Хотите опробовать <span> демо?</span></h1>
-        <div class="section-container reveal">
-            <div class="section-inner">
+        <object class="section-container reveal">
+            <aside class="section-inner">
                 <h1 class="section-title2">Попробуйте <span>EASY BONUS</span> в действии — без обязательств и оплаты.
                 </h1>
-                <div class="section-item">
+                <section class="section-item">
                     <div class="section-img-size">
                         <img class="section-img" src="../ImgSide/Distribute Vertical.png" alt="picture">
                     </div>
                     <p class="section-p">Сканируйте тестовый штрих-код</p>
-                </div>
-                <div class="section-item">
+                </section>
+                <section class="section-item">
                     <div class="section-img-size">
                         <img class="section-img" src="../ImgSide/Coin Dollar.png" alt="picture">
                     </div>
                     <p class="section-p">Узнайте, как начисляются бонусы</p>
-                </div>
-                <div class="section-item">
+                </section>
+                <aside class="section-item">
                     <div class="section-img-size">
                         <img class="section-img" src="../ImgSide/Adjust.png" alt="picture">
                     </div>
                     <p class="section-p">Оцените, насколько легко работает система</p>
-                </div>
-            </div>
-            <div class="section-inner2">
-                <div class="section-auth">
-                    <div class="section-auth-item">
+                </aside>
+            </aside>
+            <section class="section-inner2">
+                <aside class="section-auth">
+                    <article class="section-auth-item">
                         <label class="section-name">Имя</label>
                         <input class="section-auth-input" type="text" placeholder="Введите имя">
-                    </div>
-                    <div class="section-auth-item">
+                    </article>
+                    <article class="section-auth-item">
                         <label class="section-name">Фамилия</label>
                         <input class="section-auth-input" type="text" placeholder="Введите фамилия">
-                    </div>
-                </div>
-                <div class="section-input3">
+                    </article>
+                </aside>
+                <footer class="section-input3">
                     <label>Названия компания</label>
                     <input class="section-input" type="text" placeholder="Названия компания">
                     <label>E-mail</label><input class="section-input" type="text" placeholder="Введите почту">
                     <label>Номер телефона</label><input class="section-input" type="text"
                         placeholder="+998 -xxx- -xxx-">
                     <button type="button" class="section-btn">Отправить заявку</button>
-                </div>
-            </div>
-        </div>
+                </footer>
+            </section>
+        </object>
     </section>
-    <section  class="main-slider">
+    <section class="main-slider">
         <h1 class="main-slider-title reveal">Что говорят <span> о нас?</span></h1>
-        <div class="swiper mySwiper reveal">
+        <object class="swiper mySwiper reveal">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <header class="swiper-slide">
                     <p class="main-slider-p">Теперь я не просто советую клиентам хорошие товары, но и получаю за это
                         бонусы.
                         Удобно, честно и выгодно — отличная мотивация!</p>
-                    <div class="main-slider-human">
+                    <section class="main-slider-human">
                         <img class="main-slider-img" src="../ImgSide/image 3.png" alt="picture">
                         <div class="section-slider-name">
                             <p class="main-slider-p2">Андрей Кузмин</p>
                             <p class="main-slider-p3">Электрик</p>
                         </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
+                    </section>
+                </header>
+                <main class="swiper-slide">
                     <p class="main-slider-p">С EASY BONUS мы увеличили продажи на 18% за первый месяц. Система проста в
                         использовании, а мастера стали чаще возвращаться именно к нам.</p>
-                    <div class="main-slider-human">
+                    <article class="main-slider-human">
                         <img class="main-slider-img" src="../ImgSide/image 4.png" alt="picture">
                         <div class="section-slider-name">
                             <p class="main-slider-p2">ТехноМаркет</p>
                             <p class="main-slider-p3">Магазин</p>
                         </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
+                    </article>
+                </main>
+                <section class="swiper-slide">
                     <p class="main-slider-p">Раньше просто рекомендовала товары — теперь это приносит доход. Приложение
                         простое, всё наглядно. Рекомендую коллегам!</p>
                     <div class="main-slider-human">
@@ -318,8 +315,8 @@
                             <p class="main-slider-p3">Сантехник</p>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                </section>
+                <section class="swiper-slide">
                     <p class="main-slider-p">Теперь я не просто советую клиентам хорошие товары, но и получаю за это
                         бонусы.
                         Удобно, честно и выгодно — отличная мотивация!</p>
@@ -330,8 +327,8 @@
                             <p class="main-slider-p3">Сантехник</p>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                </section>
+                <footer class="swiper-slide">
                     <p class="main-slider-p">Теперь я не просто советую клиентам хорошие товары, но и получаю за это
                         бонусы.
                         Удобно, честно и выгодно — отличная мотивация!</p>
@@ -342,65 +339,63 @@
                             <p class="main-slider-p3">Сантехник</p>
                         </div>
                     </div>
-                </div>
+                </footer>
             </div>
-        </div>
-        <div class="swiper_row">
+        </object>
+        <article class="swiper_row">
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
-        </div>
+        </article>
     </section>
     <section id="contact">
-        <div class="contact-row">
+        <object class="contact-row">
             <div class="contact-container reveal">
                 <h1 class="contact-row-title reveal">Контакты</h1>
                 <div class="contact-inform">
                     <h2 class="contact-inform-title">Есть вопросы или хотите обсудить внедрение?</h2>
                     <p class="contact-inform-p">Свяжитесь с нами любым удобным способом:</p>
-                    <div class="contact-important">
-                        <div class="contact-inform-call">
+                    <section class="contact-important">
+                        <article class="contact-inform-call">
                             <img class="contact-inform-img" src="../ImgSide/Message 36.png" alt="picture">
                             <p class="contact-inform-p2">Email: company@mail.com </p>
-                        </div>
-                        <div class="contact-inform-call2">
+                        </article>
+                        <aside class="contact-inform-call2">
                             <img class="contact-inform-img" src="../ImgSide/Calling 1.png" alt="picture">
                             <p class="contact-inform-p2">Телефон: +998 00 000 00 00 </p>
-                        </div>
-                        <div class="contact-inform-call">
+                        </aside>
+                        <address class="contact-inform-call">
                             <img class="contact-inform-img" src="../ImgSide/Discovery 2.png" alt="picture">
                             <p class="contact-inform-p2">Наш сайт: www.site.com </p>
-                        </div>
-                    </div>
-                    <div class="contact-cyrcle">
+                        </address>
+                    </section>
+                    <footer class="contact-cyrcle">
                         <img class="cyrcle" src="../ImgSide/Right 2.png" alt="picture">
                         <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
                         <img class="cyrcle" src="../ImgSide//Right 2.png" alt="picture">
-                    </div>
+                    </footer>
                 </div>
             </div>
+        </object>
     </section>
     <footer id="about" class="footer reveal">
-        <div  class="footer-container">
-            <div class="footer-inform">
+        <object class="footer-container">
+            <header class="footer-inform">
                 <div class="footer-img-size">
                     <img class="footer-img" src="../ImgSide/icons8-linkedin-circled.png" alt="picture">
                 </div>
                 <p class="footer-p">Отдел продаж</p>
                 <p class="footer-p2">+998 00 000 00 00</p>
                 <p class="footer-p2">support@mail.com</p>
-            </div>
-            <div class="footer-inform2">
+            </header>
+            <main class="footer-inform2">
                 <p class="footer-inform2-p">© 2025 Cargo Calc. Все права защищены.</p>
                 <p class="footer-inform3-p">© SOFTIUM 2025.</p>
-            </div>
-        </div>
-
+            </main>
+        </object>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
